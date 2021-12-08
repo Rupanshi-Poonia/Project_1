@@ -1,0 +1,26 @@
+.navbar-brand  img{
+    width: 200px;
+}
+.navbar-brand{
+    padding-left: 80px;
+}
+#row-1{
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0px 3px  #888888;
+}
+.nav{
+    padding-right: 250px;
+}
+.nav-item{
+    padding: 20px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: overline;
+    text-decoration-color: orangered;
+    color: black;
+    text-decoration-thickness:4px;
+    
+}
