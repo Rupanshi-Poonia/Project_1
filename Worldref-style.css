@@ -1,0 +1,250 @@
+.container-fluid{
+    
+    background: url("https://images.pexels.com/photos/4065864/pexels-photo-4065864.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat;
+    background-size: cover;
+}
+.py-md-20{
+    padding-bottom: 100px !important;
+}
+.py-lg-3{
+    padding-top: 15px !important;
+}
+.py-lg-3{
+    padding-bottom: 15px !important;
+}
+@media screen and (max-width: 576px){
+.main-header .main-header-wrap .left-side-wrap {
+    flex: 1;
+}
+}
+@media screen and (max-width: 768px){
+    .primary-nav{
+        display: none;
+    }
+    .header-enquery{
+        display: none;
+    }
+   
+}
+.main-header .main-header-wrap {
+    display: flex;
+    align-items: center;
+}
+.left-side-wrap{
+    display: flex;
+    align-items:  center;
+}
+@media screen and (max-width: 768px){
+.main-header .main-header-wrap .left-side-wrap .logo-wrap img {
+    max-width: 150px;
+    height: 50px;
+}
+}
+@media screen and (max-width: 576px){
+.main-header .main-header-wrap .left-side-wrap .logo-wrap {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+}
+.left-side-wrap
+.nav-toggler {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+} 
+.nav-toggler span {
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: white;
+} 
+.logo-wrap img{
+    height: 40px;
+    padding-left: 30px;
+}  
+.primary-nav {
+    margin: auto;
+}  
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}  
+.menu-list li {
+    margin-right: 40px;
+    font-weight: 200;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu-list li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #91e7ff;
+    text-decoration-thickness:3px;
+}
+.enquery-button {
+    border-radius: 3px;
+    font-size:16px;
+    padding: 5px 10px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    cursor: pointer;
+   display: inline-block;
+    background: #ec615b;
+    color: #fff;
+    text-decoration: none;
+}
+.content{
+    max-width: 65%;
+}
+.pt-md-10{
+    padding-top: 50px !important;
+}
+.py-md-10{
+    padding-top: 50px !important;
+}
+.py-md-10{
+    padding-bottom: 50px !important;
+}
+.py-md-5{
+    padding-top: 25px !important;
+}
+.py-md-5{
+    padding-bottom: 25px !important;
+}
+.py-3{
+    padding-top: 15px !important;
+}
+.py-3{
+    padding-bottom: 15px !important;
+}
+.display-heading{
+    color: #fff;
+    font-size: 50px;
+    line-height: 4rem;
+    text-align: left;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .content{
+        max-width: 100%;
+    }
+    .display-heading{
+        font-size: 35px;
+        line-height:3rem;
+    }
+}    
+.display-line ,
+.display-line-2{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: .4px;
+}
+@media screen and (max-width: 768px){
+    .display-line{
+        display: none;
+    }
+}
+.arrow a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.arrow a:hover{
+    color: #007cfd;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        font-size: 24px;
+    }
+    .sub-section p{
+        min-width:100%;
+    }
+}
+.sub-heading span{
+    font-size: 17px;
+    border:1px solid #ECEDF1;
+    border-radius: 20px;
+    background-color:#ECEDF1;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 10px;
+    line-height:3rem;
+}
+.active-bg{ 
+    background-color:black !important;
+    color: white;
+}
+.active-border{
+    border: 1px solid black !important ;
+    
+}
+.sub-section h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-section p{
+    width: 80%;
+}
+.sub-section img{
+    float: left;
+    margin-right: 20px;
+}
+.sub-section a{
+    font-size: 15px;
+    text-decoration:none; 
+    color: black; 
+    font-weight: bold;
+}
+.span-tag{
+    font-size: 12px;
+    border:1px solid #f6faff;;
+    border-radius: 20px;
+    background-color:#f6faff;;
+    text-align: center;
+    padding: 0px 5px;
+    margin: 5px;
+    line-height:3rem;
+}
+img, img.wp-post-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-text{
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    width: 90%;
+}
+@media screen and (max-width: 768px){
+    .card-text{
+        min-width:100%;
+    }
+}
+.card-para{
+    font-size:17px;
+    width: 90%;
+}
+.button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 50px;
+}
